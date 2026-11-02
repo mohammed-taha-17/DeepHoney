@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Data & Logs
+data/logs/*
+data/pcap/*
+!data/logs/.gitkeep
+!data/pcap/.gitkeep
+
+# OS Files
+.DS_Store
+Thumbs.db
